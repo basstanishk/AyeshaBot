@@ -73,14 +73,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+Assalamu'alaikum dear Brother/Sister!{}, my name is {}! 
+Hope You Find Me Useful :D
 
 You can find my list of available commands with /help.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
+Assalamu'alaikum dear Brother/Sister! My name is *{}*.
 I'm a modular group management bot and help admins to manage their groups. Have a look at the following for an idea of some of \
 the things I can help you with.
 
@@ -99,11 +99,6 @@ And the following:
 )
 
 AyeshaBOT_IMG = "https://imgur.com/gallery/AJV9D4G"
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
-AyeshaBot is hosted on its own server and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
